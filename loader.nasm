@@ -39,7 +39,7 @@ _start:
 
 	jmp $			; infinite loop!
 
-	string db "Welcome to @OsandaMalith's First OS :)", 0
+	string db "Welcome to KubesOS!", 0
 
 print_string:		
 	mov ah, 0Eh		; int 10h 'print char' function
